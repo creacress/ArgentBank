@@ -42,10 +42,10 @@ function Information() {
       {editMode ? (
         // Formulaire d'édition
         <div>
-          <h1>Modifier les informations utilisateur</h1>
+          <h1>Edit user info</h1>
           <form>
             <div class="user-name">
-              <label for="username">Nom d'utilisateur</label>
+              <label for="username">User name</label>
               <input
                 type="text"
                 id="username"
@@ -53,7 +53,7 @@ function Information() {
               />
             </div>
             <div class="user-name">
-              <label for="username">Prénom</label>
+              <label for="username">First name</label>
               <input
                 type="text"
                 id="username"
@@ -62,7 +62,7 @@ function Information() {
               />
             </div>
             <div class="user-name">
-              <label for="username">Nom de famille</label>
+              <label for="username">Last name</label>
               <input
                 type="text"
                 id="username"
@@ -72,10 +72,10 @@ function Information() {
             </div>
             <div className="divButton">
               <button type="button" onClick={handleSave}>
-                Sauvegarder
+                Save
               </button>
               <button type="reset" onClick={handleCancel}>
-                Annuler
+                Cancel
               </button>
             </div>
           </form>
@@ -84,10 +84,10 @@ function Information() {
         // Affichage des informations utilisateur
         <div>
           <h1>
-            Bienvenue <br /> {userName}
+            Welcome <br /> {userName}
           </h1>
           <button type="button" onClick={editData}>
-            Modifier les informations utilisateur
+            Edit user info
           </button>
         </div>
       )}

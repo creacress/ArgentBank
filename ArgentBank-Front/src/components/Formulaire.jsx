@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-redeclare */
 /* global sessionStorage */
 /* eslint no-undef: "error" */
